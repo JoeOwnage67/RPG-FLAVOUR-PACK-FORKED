@@ -1,6 +1,13 @@
 # RPG Adventure Flavour Pack - Fork
 
+If you like my stuff, feel free buy me a coffee (or a beer) at ko-fi.com/joeownage
+
 This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've spent a fair bit of time patching this mod and I thought it made sense to properly fork it in case Feldoh's mod is taken down or changed significantly.
+
+I made this for my own modpack: 
+
+Joe's 1.5 Playtested Medieval Fantasy Modlist and Configs
+https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 
 **Changes:**  
 ----
