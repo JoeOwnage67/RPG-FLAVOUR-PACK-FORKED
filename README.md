@@ -24,6 +24,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 - Changed spawn rate of Broombug to be more rare.
 - Librarian trader caravan now sells all *Medieval Overhaul* books, but will not always have them all available. (except for intermediate cooking, I couldn't add that one for some reason - will be added in the future)
 - Replaced references to Oken's *Medieval Quest Rewards* with Botch Job's *Medieval Fantasy Themed Quest Rewards* (uses patched base game defs).
+- Changed Wizard's Boots and Gloves to rely on *Medieval Overhaul* instead of *Vanilla Apparel Expanded*
 
 **MEDIEVAL OVERHAUL**:
 - Commented out code for Deeper Darker Mineshaft as for some reason it had no recipes for me, and I've been putting the mining recipes I want on the regular *MO* mineshaft anyway.  
