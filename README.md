@@ -1,6 +1,6 @@
 # RPG Adventure Flavour Pack - Fork
 
-This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've spent a fair bit of time patching this mod and I thought it made sense to properly fork it in case the main mod sees big changes.
+This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've spent a fair bit of time patching this mod and I thought it made sense to properly fork it in case Feldoh's mod is taken down or changed significantly.
 
 **Changes:**  
 ----
