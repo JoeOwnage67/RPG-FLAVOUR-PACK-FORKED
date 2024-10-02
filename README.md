@@ -48,7 +48,7 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
 - Added Tordune subspecies to Loxodon xenotype if *FRBE Loxo* is loaded. Adds a new head type and a new gene.  
 - Made Loxodon pawnkinds not wear headgear (doesn't fit) if *FRBE Loxo* is loaded.
 - Made Loxodon xenotype not spawn in base game factions for now (will re-add with pawnkinds so they don't spawn with headgear).
-- 
+  
 **ISSUES:**  
 ----
 
