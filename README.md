@@ -6,9 +6,9 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
 
 I made this for my own modpack: 
 
-Joe's 1.5 Playtested Medieval Fantasy Modlist and Configs
-https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
-
+Joe's 1.5 Playtested Medieval Fantasy Modlist and Configs  
+https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383  
+  
 **Changes:**  
 ----
 
