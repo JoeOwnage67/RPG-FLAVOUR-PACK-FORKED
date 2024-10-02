@@ -161,6 +161,12 @@
             <immatureGraphicPath>Things/Plant/MSS_UraniumTreeImm</immatureGraphicPath>
             <mustBeWildToSow>false</mustBeWildToSow>
         </plant>
+        <comps>
+			<li Class="CompProperties_Glower">
+				<glowColor>(228, 208, 10, 0)</glowColor> 
+				<glowRadius>3.5</glowRadius>
+			</li>
+  		</comps>
     </ThingDef>
 
     <ThingDef ParentName="TreeBase" MayRequire="VanillaExpanded.VPsycastsE">
