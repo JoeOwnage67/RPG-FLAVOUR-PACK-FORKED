@@ -59,6 +59,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 - Added Tordune subspecies to Loxodon xenotype if *FRBE Loxo* is loaded. Adds a new head type and a new gene.  
 - Made Loxodon pawnkinds not wear headgear (doesn't fit) if *FRBE Loxo* is loaded.
 - Made Loxodon xenotype not spawn in base game factions for now (will re-add with pawnkinds so they don't spawn with headgear).
+- Warforged should spawn with a xenotype now instead of as a baseliner (still testing)
   
 **ISSUES:**  
 ----
