@@ -89,6 +89,7 @@
                         <li>Caravan_ArcaneTrader</li>
                         <li>Caravan_AlchemistTrader</li>
                         <li>Caravan_LibrarianTrader</li>
+                        <li>Caravan_ProstheticsTrader</li>
                         <li MayRequire="feldoh.devilfruit">MSSRPG_Caravan_FruitTrader</li>
                     </value>
                 </li>
