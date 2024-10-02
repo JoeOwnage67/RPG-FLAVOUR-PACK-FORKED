@@ -19,110 +19,110 @@
                 </li>
             </validators>
             <groups>
-                <li>
-                    <things>
-                        <DiceOfDestiny_DiceOfFortune MayRequire="tikubonn.DiceOfDestiny">0.4</DiceOfDestiny_DiceOfFortune>
-                        <DiceOfDestiny_DiceOfChaos MayRequire="tikubonn.DiceOfDestiny">0.5</DiceOfDestiny_DiceOfChaos>
-                        <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">0.25</VPE_Eltex>
-                        <LootBoxTreasure MayRequire="lanilor.lootboxes">0.25</LootBoxTreasure>
-                        <LootBoxSilverSmall MayRequire="lanilor.lootboxes">0.25</LootBoxSilverSmall>
-                        <LootBoxSilverLarge MayRequire="lanilor.lootboxes">0.2</LootBoxSilverLarge>
-                        <LootBoxGoldSmall MayRequire="lanilor.lootboxes">0.1</LootBoxGoldSmall>
-                        <LootBoxGoldLarge MayRequire="lanilor.lootboxes">0.05</LootBoxGoldLarge>
-                        <LootBoxPandora MayRequire="lanilor.lootboxes">0.05</LootBoxPandora>
-                        <MeleeWeapon_PsyfocusStaff MayRequire="Ludeon.RimWorld.Royalty">0.05</MeleeWeapon_PsyfocusStaff>
-                        <MSSRPG_Book_LustySauridMaid_First MayRequire="DankPyon.Medieval.Overhaul">0.1</MSSRPG_Book_LustySauridMaid_First>
-                        <MSSRPG_Book_LustySauridMaid_Second MayRequire="DankPyon.Medieval.Overhaul">0.3</MSSRPG_Book_LustySauridMaid_Second>
-                        <MeleeWeapon_Knife>0.1</MeleeWeapon_Knife>
-                        <HealingPotion MayRequire="Oken.MedievalQuestRewards">0.3</HealingPotion>
-                        <SkillPotionMelee MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionMelee>
-                        <Beer>0.01</Beer>
-                        <Silver>0.01</Silver>
-                    </things>
-                    <indoorRuin>false</indoorRuin>
-                    <coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
-                    <filthDef>Filth_RubbleBuilding</filthDef>
-                    <filthExpandBy>1</filthExpandBy>
-                    <filthChance>0.05</filthChance>
-                    <clusterRectRadius>1~2</clusterRectRadius>
-                </li>
-                <li>
-                    <things>
-                        <DiceOfDestiny_DiceOfFortune MayRequire="tikubonn.DiceOfDestiny">0.1</DiceOfDestiny_DiceOfFortune>
-                        <DiceOfDestiny_DiceOfChaos MayRequire="tikubonn.DiceOfDestiny">0.5</DiceOfDestiny_DiceOfChaos>
-                        <VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">0.25</VPE_Eltex>
-                        <LootBoxTreasure MayRequire="lanilor.lootboxes">0.1</LootBoxTreasure>
-                        <LootBoxSilverSmall MayRequire="lanilor.lootboxes">0.1</LootBoxSilverSmall>
-                        <LootBoxSilverLarge MayRequire="lanilor.lootboxes">0.1</LootBoxSilverLarge>
-                        <LootBoxGoldSmall MayRequire="lanilor.lootboxes">0.1</LootBoxGoldSmall>
-                        <LootBoxGoldLarge MayRequire="lanilor.lootboxes">0.1</LootBoxGoldLarge>
-                        <LootBoxPandora MayRequire="lanilor.lootboxes">0.3</LootBoxPandora>
-                        <MSSRPG_Book_LustySauridMaid_First MayRequire="DankPyon.Medieval.Overhaul">0.3</MSSRPG_Book_LustySauridMaid_First>
-                        <MSSRPG_Book_LustySauridMaid_Second MayRequire="DankPyon.Medieval.Overhaul">0.1</MSSRPG_Book_LustySauridMaid_Second>
-                        <Apparel_PsyfocusRobe MayRequire="Ludeon.RimWorld.Royalty">0.05</Apparel_PsyfocusRobe>
-                        <MeleeWeapon_Axe MayRequire="Ludeon.RimWorld.Royalty">0.05</MeleeWeapon_Axe>
-                        <MeleeWeapon_LongSword>0.05</MeleeWeapon_LongSword>
-                        <Silver>0.01</Silver>
-                        <HealingPotion MayRequire="Oken.MedievalQuestRewards">0.3</HealingPotion>
-                        <FirebeamStaff MayRequire="Oken.MedievalQuestRewards">0.03</FirebeamStaff>
-                    </things>
-                    <indoorRuin>false</indoorRuin>
-                    <coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
-                    <filthDef>Filth_RubbleBuilding</filthDef>
-                    <filthExpandBy>1</filthExpandBy>
-                    <filthChance>0.05</filthChance>
-                    <clusterRectRadius>1~2</clusterRectRadius>
-                </li>
-                <li>
-                    <things>
-                        <ShockingStaff MayRequire="Oken.MedievalQuestRewards">0.02</ShockingStaff>
-                        <InsanityStaff MayRequire="Oken.MedievalQuestRewards">0.02</InsanityStaff>
-                        <DestructionStaff MayRequire="Oken.MedievalQuestRewards">0.01</DestructionStaff>
-                        <FirebeamStaff MayRequire="Oken.MedievalQuestRewards">0.03</FirebeamStaff>
-                        <CycloneStaff MayRequire="Oken.MedievalQuestRewards">0.04</CycloneStaff>
-                        <AncientScroll MayRequire="Oken.MedievalQuestRewards">0.1</AncientScroll>
-                        <SkillPotionShooting MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionShooting>
-                        <SkillPotionMelee MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionMelee>
-                        <SkillPotionConstruction MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionConstruction>
-                        <SkillPotionMining MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionMining>
-                        <SkillPotionCooking MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionCooking>
-                        <SkillPotionPlants MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionPlants>
-                        <SkillPotionAnimals MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionAnimals>
-                        <SkillPotionCrafting MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionCrafting>
-                        <SkillPotionArtistic MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionArtistic>
-                        <SkillPotionMedicine MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionMedicine>
-                        <SkillPotionSocial MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionSocial>
-                        <SkillPotionIntellectual MayRequire="Oken.MedievalQuestRewards">0.05</SkillPotionIntellectual>
-                        <LuciferiumPotion MayRequire="Oken.MedievalQuestRewards">0.03</LuciferiumPotion>
-                        <HealingPotion MayRequire="Oken.MedievalQuestRewards">0.3</HealingPotion>
-                        <LifePotion MayRequire="Oken.MedievalQuestRewards">0.01</LifePotion>
-                        <AnimalInsanityGem MayRequire="Oken.MedievalQuestRewards">0.1</AnimalInsanityGem>
-                        <SootheBlessingGem MayRequire="Oken.MedievalQuestRewards">0.1</SootheBlessingGem>
-                        <LegendaryMedicine MayRequire="Oken.MedievalQuestRewards">0.05</LegendaryMedicine>
-                        <Silver>0.01</Silver>
-                    </things>
-                    <indoorRuin>false</indoorRuin>
-                    <coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
-                    <filthDef>Filth_RubbleBuilding</filthDef>
-                    <filthExpandBy>1</filthExpandBy>
-                    <filthChance>0.05</filthChance>
-                    <clusterRectRadius>1~2</clusterRectRadius>
-                </li>
-                <li>
-                    <things>
-                        <Beer>0.4</Beer>
-                        <MedicineHerbal>0.5</MedicineHerbal>
-                        <Silver>0.25</Silver>
-                        <MeleeWeapon_Knife>0.15</MeleeWeapon_Knife>
-                    </things>
-                    <indoorRuin>false</indoorRuin>
-                    <coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
-                    <filthDef>Filth_RubbleBuilding</filthDef>
-                    <filthExpandBy>1</filthExpandBy>
-                    <filthChance>0.05</filthChance>
-                    <clusterRectRadius>1~2</clusterRectRadius>
-                </li>
-            </groups>
+							
+								<li>
+									<things>
+										<DiceOfDestiny_DiceOfFortune MayRequire="tikubonn.DiceOfDestiny">0.4</DiceOfDestiny_DiceOfFortune>
+										<DiceOfDestiny_DiceOfChaos MayRequire="tikubonn.DiceOfDestiny">0.5</DiceOfDestiny_DiceOfChaos>
+										<VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">0.25</VPE_Eltex>
+										<LootBoxTreasure MayRequire="lanilor.lootboxes">0.25</LootBoxTreasure>
+										<LootBoxSilverSmall MayRequire="lanilor.lootboxes">0.25</LootBoxSilverSmall>
+										<LootBoxSilverLarge MayRequire="lanilor.lootboxes">0.2</LootBoxSilverLarge>
+										<LootBoxGoldSmall MayRequire="lanilor.lootboxes">0.1</LootBoxGoldSmall>
+										<LootBoxGoldLarge MayRequire="lanilor.lootboxes">0.05</LootBoxGoldLarge>
+										<LootBoxPandora MayRequire="lanilor.lootboxes">0.05</LootBoxPandora>
+										<MeleeWeapon_PsyfocusStaff MayRequire="Ludeon.RimWorld.Royalty">0.05</MeleeWeapon_PsyfocusStaff>
+										<MSSRPG_Book_LustySauridMaid_First MayRequire="DankPyon.Medieval.Overhaul">0.1</MSSRPG_Book_LustySauridMaid_First>
+										<MSSRPG_Book_LustySauridMaid_Second MayRequire="DankPyon.Medieval.Overhaul">0.3</MSSRPG_Book_LustySauridMaid_Second>
+										<MeleeWeapon_Knife>0.1</MeleeWeapon_Knife>
+										<MechSerumHealer>0.3</MechSerumHealer> <!-- HEALING POTION -->
+										<Beer>0.01</Beer>
+										<Silver>0.01</Silver>
+									</things>
+									
+									<indoorRuin>false</indoorRuin>
+									<coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
+									<filthDef>Filth_RubbleBuilding</filthDef>
+									<filthExpandBy>1</filthExpandBy>
+									<filthChance>0.05</filthChance>
+									<clusterRectRadius>1~2</clusterRectRadius>
+								</li> 
+								
+								
+								<li>
+									<things>
+										<DiceOfDestiny_DiceOfFortune MayRequire="tikubonn.DiceOfDestiny">0.1</DiceOfDestiny_DiceOfFortune>
+										<DiceOfDestiny_DiceOfChaos MayRequire="tikubonn.DiceOfDestiny">0.5</DiceOfDestiny_DiceOfChaos>
+										<VPE_Eltex MayRequire="VanillaExpanded.VPsycastsE">0.25</VPE_Eltex>
+										<LootBoxTreasure MayRequire="lanilor.lootboxes">0.1</LootBoxTreasure>
+										<LootBoxSilverSmall MayRequire="lanilor.lootboxes">0.1</LootBoxSilverSmall>
+										<LootBoxSilverLarge MayRequire="lanilor.lootboxes">0.1</LootBoxSilverLarge>
+										<LootBoxGoldSmall MayRequire="lanilor.lootboxes">0.1</LootBoxGoldSmall>
+										<LootBoxGoldLarge MayRequire="lanilor.lootboxes">0.1</LootBoxGoldLarge>
+										<LootBoxPandora MayRequire="lanilor.lootboxes">0.3</LootBoxPandora>
+										<MSSRPG_Book_LustySauridMaid_First MayRequire="DankPyon.Medieval.Overhaul">0.3</MSSRPG_Book_LustySauridMaid_First>
+										<MSSRPG_Book_LustySauridMaid_Second MayRequire="DankPyon.Medieval.Overhaul">0.1</MSSRPG_Book_LustySauridMaid_Second>
+										<Apparel_PsyfocusRobe MayRequire="Ludeon.RimWorld.Royalty">0.05</Apparel_PsyfocusRobe>
+										<MeleeWeapon_Axe MayRequire="Ludeon.RimWorld.Royalty">0.05</MeleeWeapon_Axe>
+										<MeleeWeapon_LongSword>0.05</MeleeWeapon_LongSword>
+										<Silver>0.01</Silver>
+										<MechSerumHealer>0.3</MechSerumHealer> <!-- HEALING POTION -->
+										<MechSerumResurrector>0.01</MechSerumResurrector> <!-- REBIRTH POTION -->
+										<Gun_TripleRocket>0.03</Gun_TripleRocket> <!-- STAFF OF FIREBALL -->
+									</things>
+									
+									<indoorRuin>false</indoorRuin>
+									<coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
+									<filthDef>Filth_RubbleBuilding</filthDef>
+									<filthExpandBy>1</filthExpandBy>
+									<filthChance>0.05</filthChance>
+									<clusterRectRadius>1~2</clusterRectRadius>
+								</li>
+								
+								<li>
+									<things>
+										<Apparel_PsychicShockLance>0.02</Apparel_PsychicShockLance> <!-- STAFF OF PARALYSIS -->                        
+										<Apparel_PsychicInsanityLance>0.02</Apparel_PsychicInsanityLance> <!-- STAFF OF MADNESS -->
+										<Gun_DoomsdayRocket>0.01</Gun_DoomsdayRocket> <!-- STAFF OF GREATER FIREBALL -->
+										<Gun_TripleRocket>0.03</Gun_TripleRocket> <!-- STAFF OF FIREBALL -->
+										<TornadoGenerator>0.04</TornadoGenerator> <!-- TORNADO SPELL SCROLL -->                            
+										<PsychicAmplifier>0.1</PsychicAmplifier> <!-- PSYLINK -->
+										<MechSerumNeurotrainer>0.05</MechSerumNeurotrainer> <!-- SKILL TOME -->
+										<Luciferium>0.03</Luciferium> <!-- DEMON'S BLOOD POTION -->
+										<TechprofSubpersonaCore>0.03</TechprofSubpersonaCore> <!-- SCROLL OF KNOWLEDGE -->                       
+										<MechSerumHealer>0.3</MechSerumHealer> <!-- HEALING POTION -->
+										<MechSerumResurrector>0.01</MechSerumResurrector> <!-- REBIRTH POTION -->
+										<PsychicAnimalPulser>0.1</PsychicAnimalPulser> <!-- FRENZY ORB -->
+										<PsychicSoothePulser>0.1</PsychicSoothePulser> <!-- SERENE ORB -->
+										<MedicineUltratech>0.05</MedicineUltratech> <!-- EXALTED MEDICINE -->
+										<Apparel_ShieldBelt>0.05</Apparel_ShieldBelt> <!-- SHIELD TALISMAN -->
+										<Silver>0.01</Silver>
+									</things>
+									
+									<indoorRuin>false</indoorRuin>
+									<coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
+									<filthDef>Filth_RubbleBuilding</filthDef>
+									<filthExpandBy>1</filthExpandBy>
+									<filthChance>0.05</filthChance>
+									<clusterRectRadius>1~2</clusterRectRadius>
+								</li>
+								
+								<li>
+									<things>
+										<Beer>0.4</Beer>
+										<MedicineHerbal>0.5</MedicineHerbal>
+										<Silver>0.25</Silver>
+										<MeleeWeapon_Knife>0.15</MeleeWeapon_Knife>
+									</things>
+									
+									<indoorRuin>false</indoorRuin>
+									<coveredCellsPer10Cells>0~1</coveredCellsPer10Cells>
+									<filthDef>Filth_RubbleBuilding</filthDef>
+									<filthExpandBy>1</filthExpandBy>
+									<filthChance>0.05</filthChance>
+									<clusterRectRadius>1~2</clusterRectRadius>
+								</li>	
+							</groups>						
         </genStep>
     </GenStepDef>
 </Defs>
