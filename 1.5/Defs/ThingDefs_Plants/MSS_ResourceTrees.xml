@@ -4,7 +4,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_GoldTree</defName>
         <label>Gold Tree</label>
-        <description>A large, majestic tree that can be eventually cultivated for a meagre amount of usable gold leaf.</description>
+        <description>A large, magical elven tree that can be eventually cultivated for a meagre amount of usable gold leaf.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_GoldTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -31,7 +31,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_JadeTree</defName>
         <label>Jade Bamboo</label>
-        <description>A cluster of specially modified bamboo that accumulates jade deposits in the center of its stalks.</description>
+        <description>A cluster of enchanted bamboo that accumulates jade deposits in the center of its stalks.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_JadeTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -58,7 +58,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_PlasteelTree</defName>
         <label>Plasteel Tree</label>
-        <description>An extremely dense and tall tree that produces unique plasteel leaves which can be cultivated by particularly skilled farmers.</description>
+        <description>An extremely dense and tall tree brought back from the feywild that produces unique plasteel leaves which can be cultivated by particularly skilled farmers.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_PlasteelTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -85,7 +85,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_SilverTree</defName>
         <label>Silver Tree</label>
-        <description>A beautiful birch-like tree found on a distant world capable of growing enormous silver blooms that can be harvested for usable silver.</description>
+        <description>A beautiful birch-like tree brought back from the feywild capable of growing enormous silver blooms that can be harvested for usable silver.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_SilverTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -112,7 +112,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_SteelTree</defName>
         <label>Steel Tree</label>
-        <description>A seemingly normal tree that inexplicably produces large steel leaves which can be harvested for usable steel.</description>
+        <description>A hardy tree discovered by the Stoneborn that inexplicably produces large steel leaves which can be harvested for usable steel.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_SteelTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -139,7 +139,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_UraniumTree</defName>
         <label>Uranium Tree</label>
-        <description>An ominous, broad tree with an eerie grow that produces trace amounts of usable uranium in its bark.</description>
+        <description>An ominous, broad tree plucked from the underdark. It has an eerie grow and produces trace amounts of usable oricalcum in its bark.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_UraniumTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -166,7 +166,7 @@
     <ThingDef ParentName="TreeBase" MayRequire="VanillaExpanded.VPsycastsE">
         <defName>MSS_ArcaniumTree</defName>
         <label>Arcanium Tree</label>
-        <description>An extremely slow growing and venerable tree that eventually accumulates deposits of pure mana on it's branches.</description>
+        <description>An extremely rare, slow growing and venerable tree that eventually accumulates deposits of pure mana on it's branches.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_ArcaniumTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
