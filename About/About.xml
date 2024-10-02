@@ -2,9 +2,8 @@
 
 <ModMetaData>
     <name>RPG Adventure Flavour Pack - Fork</name>
-    <author>MrSamuelStreamer, Feldoh, Skullywag, Sandwish</author>
+    <author>MrSamuelStreamer, Feldoh, Skullywag, Sandwish, JoeOwnage</author>
     <supportedVersions>
-        <li>1.4</li>
         <li>1.5</li>
     </supportedVersions>
     <packageId>Joe.RPGAdventureFlavour.Fork</packageId>
@@ -19,55 +18,70 @@
         </li>
     </modDependencies>
     <loadAfter>
+        
+        <!--original-->
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Ideology</li>
         <li>Ludeon.RimWorld.Royalty</li>
         <li>Ludeon.RimWorld.Biotech</li>
         <li>Ludeon.RimWorld.Anomaly</li>
-        <li>VanillaExpanded.VPsycastsE</li>
-        <li>sarg.alphagenes</li>
+        <li>VanillaExpanded.VPsycastsE</li>        
         <li>sarg.alphaanimals</li>
         <li>mlie.rimquest</li>
         <li>VanillaExpanded.VFESecurity</li>
-        <li>Neronix17.Outland.Core</li>
-        <li>OskarPotocki.VFE.Classical</li>
+        <li>Neronix17.Outland.Core</li>        
         <li>jaxe.rimhud</li>
         <li>VanillaExpanded.VTEXE</li>
-        <li>tidal.morevanilla.textures</li>
-        <li>iforgotmysocks.CaravanAdventures</li>
+        <li>tidal.morevanilla.textures</li>        
         <li>marvinkosh.sometimesraidsgowrong</li>
-        <li>Aoba.Tent</li>
-        <li>redmattis.bigsmall.core</li>
-        <li>vanillaracesexpanded.archon</li>
-        <li>turnovus.biotech.integratedgenes</li>
+        <li>Aoba.Tent</li>        
+        <li>vanillaracesexpanded.archon</li>        
         <li>ccyt.stargatesmod</li>
         <li>RedMattis.LamiasAndOtherSnakes</li>
         <li>RedMattis.Yokai</li>
         <li>RedMattis.MoreXenos</li>
         <li>RedMattis.BigSmall</li>
         <li>Redmattis.Undead</li>
-        <li>det.stoneborn</li>
-        <li>vanillaexpanded.vappe</li>
-
-        <li>ogam.rimedieval</li><!--TODO 1.5 Issues (Replace with: Remove industrial stuff - https://steamcommunity.com/sharedfiles/filedetails/?id=2294378964) -->
-        <li>DankPyon.Medieval.Overhaul</li><!--TODO 1.5 Issues, replace with unofficial maybe - https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926&searchtext=medieval+overhaul -->
-
-        <li>MrSamuelStreamer.MrSamuelStreamCustomFaction</li><!--TODO 1.5 Issues-->
-        <li>danzen.vpe.biotechintegration</li><!--TODO 1.5 Issues-->
-        <li>com.yayo.lostTechCore.2</li><!--TODO 1.5 Issues-->
-        <li>aRandomKiwi.RimThemes</li><!--TODO 1.5 Issues-->
-        <li>Edern.CombatPsycasts</li><!--TODO 1.5 Issues-->
-        <li>mooloh.dndmenagerie</li><!--TODO 1.5 Issues-->
-        <li>gwibbo.morepsygenes</li><!--TODO 1.5 Issues-->
-        <li>syrchalis.setupcamp</li><!--TODO 1.5 Issues-->
-        <li>orion.cashregister</li><!--TODO 1.5 Issues-->
-        <li>orion.hospitality</li><!--TODO 1.5 Issues-->
-        <li>jdalt.levelthis</li><!--TODO 1.5 Issues-->
-
-        <li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li><!--TODO 1.5 Issues (Deprecated)-->
-        <li>OskarPotocki.VFE.Vikings</li><!--TODO 1.5 Issues (Deprecated)-->
-        <li>sargoskar.witcherhunt</li><!--TODO 1.5 Issues (Deprecated)-->
-
-        <li>oken.medievalquestrewards</li><!--TODO 1.5 Issues (Removed from workshop)-->
+        <li>det.stoneborn</li>   
+        <li>DankPyon.Medieval.Overhaul</li>
+        <li>aRandomKiwi.RimThemes</li>
+        <li>orion.cashregister</li>
+        <li>orion.hospitality</li>
+        <li>jdalt.levelthis</li>
+        <!--<li>turnovus.biotech.integratedgenes</li>-->
+        <!-- <li>vanillaexpanded.vappe</li> -->
+        <!-- <li>ogam.rimedieval</li> -->
+        <!-- <li>MrSamuelStreamer.MrSamuelStreamCustomFaction</li> -->
+        <!-- <li>danzen.vpe.biotechintegration</li> -->
+        <!-- <li>com.yayo.lostTechCore.2</li> -->
+        <!-- <li>Edern.CombatPsycasts</li> -->
+        <!-- <li>mooloh.dndmenagerie</li> -->
+        <!-- <li>gwibbo.morepsygenes</li> -->
+        <!-- <li>syrchalis.setupcamp</li> -->
+        <!--<li>iforgotmysocks.CaravanAdventures</li>-->
+        <!-- <li>OskarPotocki.VFE.Classical</li> -->
+        <!-- <li>redmattis.bigsmall.core</li> -->
+        <!-- <li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li> -->
+        <!-- <li>OskarPotocki.VFE.Vikings</li> -->
+        <!-- <li>sargoskar.witcherhunt</li>-->
+        <!-- <li>oken.medievalquestrewards</li>-->
+        <!-- <li>sarg.alphagenes</li> -->
+     
+		<!--fork-->
+		<li>JoeDaly.MedMeds.MO</li>
+		<li>Sabrael.FRBELoxo</li>
+        <li>Rebuild.COTR.DoorsandCorners</li>       
+        <li>zal.eyeprosthetics</li>		
+		<li>RedMattis.BetterPrerequisites</li>	
+		<li>RedMattis.BigSmall.Core</li>
+		<li>Wara.toomanymods</li>
+		<li>pphhyy.BoneReapers</li>
+		<li>Sabrael.FRBEGnolls</li>
+		<li>BotchJob.medievalfantasyquestrewards</li>
+		<li>BotchJob.medievalfantasyrareresources</li>
+		<li>LTS.PG</li>
+		<li>Neronix17.ForgottenRealms</li>
+		<li>sarg.alphagenes</li>
+        
     </loadAfter>
 </ModMetaData>
