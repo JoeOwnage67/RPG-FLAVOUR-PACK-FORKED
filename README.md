@@ -20,3 +20,4 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
     3. Heartstone from Asimov for building Warforged from Forgotten Realms.
     4. more  
 - Added no-facial-animations gene from Big & Small to certain modded xenotypes where the animations don't look right. As I encounter more, I will add them.
+- Replaced references to Oken's Medieval Quest Rewards with Botch Job's (uses patched base game defs).
