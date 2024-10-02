@@ -40,7 +40,7 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
 - Removed eye patch if *[CZK] Eye Prosthetics (Continued)* is loaded.
 - Cryptosleep casket patch now applies if this mod is loaded.
 
-**STARGATES!**:
+**STARGATES!**:  
 -Changed research for **Stargates!** (arcane portals) to Medieval tech level. 
 
 **XENOTYPES**:
