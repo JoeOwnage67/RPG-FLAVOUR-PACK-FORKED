@@ -41,7 +41,7 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
 - Cryptosleep casket patch now applies if this mod is loaded.
 
 **STARGATES!**:  
--Changed research for **Stargates!** (arcane portals) to Medieval tech level. 
+- Changed research for **Stargates!** (arcane portals) to Medieval tech level. 
 
 **XENOTYPES**:
 - Added no-facial-animations gene from Big & Small to certain modded xenotypes where the animations don't look right. As I encounter more, I will add them.
