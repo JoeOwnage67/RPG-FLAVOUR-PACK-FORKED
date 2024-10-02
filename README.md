@@ -25,10 +25,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 - Librarian trader caravan now sells all *Medieval Overhaul* books, but will not always have them all available. (except for intermediate cooking, I couldn't add that one for some reason - will be added in the future)
 - Replaced references to Oken's *Medieval Quest Rewards* with Botch Job's *Medieval Fantasy Themed Quest Rewards* (uses patched base game defs).
 - Changed Wizard's Boots and Gloves to rely on *Medieval Overhaul* instead of *Vanilla Apparel Expanded*
-
-**MEDIEVAL OVERHAUL**:
 - Commented out code for Deeper Darker Mineshaft as for some reason it had no recipes for me, and I've been putting the mining recipes I want on the regular *MO* mineshaft anyway.  
 - Commented out references to *Medieval Overhaul* defs: DankPyon_Book_AncientCodex, DankPyon_Book_IntoTheRuins, DankPyon_Book_TheBeginning. (causing errors).
+
+**MEDIEVAL OVERHAUL**:
+
 - Traveling Apothecary Artificer caravan added to MO Noble Houses that sells small quantities of:
     1. *Medieval Med: MO Edition* prosthetics and medicine
     2. *Medieval Overhaul* drugs, medicine, gems
