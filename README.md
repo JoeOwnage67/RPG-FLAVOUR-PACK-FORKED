@@ -13,4 +13,5 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. Not mu
     4. LTS's "Glowing eyes genes"  
     5. 6262soudai's "VPE-Biotech Integration for Alpha Animals and More!"
 - Changed spawn rate of Broombug to be more rare.
+- Librarian trader caravan now sells all Medieval Overhaul books, but will not always have them all available. (except for intermediate cooking, I couldn't add that one for some reason)
   
