@@ -37,6 +37,7 @@
     <li IfModActive="RedMattis.BetterPrerequisites">Compatibility/RedMattis.BetterPrerequisites</li>
     <li IfModActive="zal.eyeprosthetics">Compatibility/zal.eyeprosthetics</li>
     <li IfModActive="Sabrael.FRBELoxo">Compatibility/FRBELoxo</li>
+    <li IfModActive="JoeDaly.MedMeds.MO">Compatibility/JoeDaly.MedMeds.MO</li>
     
   </v1.5>
 </loadFolders>
