@@ -194,6 +194,12 @@
             <immatureGraphicPath>Things/Plant/MSS_ArcaniumTreeImm</immatureGraphicPath>
             <mustBeWildToSow>false</mustBeWildToSow>
         </plant>
+	   	<comps>
+			<li Class="CompProperties_Glower">
+				<glowColor>(64, 224, 208, 0)</glowColor> 
+				<glowRadius>3.5</glowRadius>
+			</li>
+  		</comps>
     </ThingDef>
 
     <ThingDef ParentName="TreeBase" MayRequire="dankpyon.medieval.overhaul">
