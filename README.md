@@ -11,7 +11,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
   
 **Changes:**  
 ----
-
+  
+- All alcoholic beverages (except *Medieval Overhaul* wine, for now) from *Core Rimworld*, *Medieval Overhaul*, *House Roxmont*, *Mashed's Ashlands*, and *Stoneborn Delights* will restore 5% psyfocus (mana) if *Rimworld: Royalty* is loaded.  
+  
 **RPG ADVENTURE FLAVOUR PACK**:
 - Commented out WizardTales xenotypes, you'd need to add a number of additional gene mods, which are not in my modpack, to get them to work as intended:  
     1. Turnovus' "Integrated Genes"  
