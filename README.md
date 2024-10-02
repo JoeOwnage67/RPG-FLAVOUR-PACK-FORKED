@@ -12,4 +12,5 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. Not mu
     3. Danzen's "Vanilla Psycast Expanded - Biotech Integration"  
     4. LTS's "Glowing eyes genes"  
     5. 6262soudai's "VPE-Biotech Integration for Alpha Animals and More!"
+- Changed spawn rate of Broombug to be more rare.
   
