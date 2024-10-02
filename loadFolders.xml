@@ -38,6 +38,8 @@
     <li IfModActive="zal.eyeprosthetics">Compatibility/zal.eyeprosthetics</li>
     <li IfModActive="Sabrael.FRBELoxo">Compatibility/FRBELoxo</li>
     <li IfModActive="JoeDaly.MedMeds.MO">Compatibility/JoeDaly.MedMeds.MO</li>
+    <li IfModActive="Rebuild.COTR.DoorsandCorners">Compatibility/Rebuild.COTR.DoorsandCorners</li>
+
     
   </v1.5>
 </loadFolders>
