@@ -85,7 +85,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>MSS_SilverTree</defName>
         <label>Silver Tree</label>
-        <description>A beautiful birch-like tree, its seeds were originally harvested from the Deep Wilds. Capable of growing enormous silver blooms that can be harvested for usable silver.</description>
+        <description>A beautiful birch-like tree, originally discovered in the Deep Wilds. Capable of growing enormous silver blooms that can be harvested for usable silver.</description>
         <graphicData>
             <texPath>Things/Plant/MSS_SilverTree</texPath>
             <graphicClass>Graphic_Single</graphicClass>
