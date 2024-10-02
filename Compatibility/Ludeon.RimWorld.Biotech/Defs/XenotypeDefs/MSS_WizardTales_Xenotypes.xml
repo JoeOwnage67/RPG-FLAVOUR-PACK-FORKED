@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-  <XenotypeDef>
+  <!-- <XenotypeDef>
     <defName>MSSRPG_Adult_Mage_Pool</defName>
     <label>Adult Mage Pool - You Shouldn't See This</label>
     <description>If you see this, you've done something horribly wrong during installation. This xenotype is secret, and contains all the genes that the adults can spawn in with to give cool mutations.</description>
@@ -229,5 +229,5 @@
       <li MayRequire="void.charactereditor">SZBodySize_30</li>
       <li MayRequire="RedMattis.BetterPrerequisites">BS_FA_NoHead</li>
     </genes>
-  </XenotypeDef>
+  </XenotypeDef> -->
 </Defs>
