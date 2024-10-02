@@ -35,6 +35,7 @@
 
     <!--fork-->
     <li IfModActive="RedMattis.BetterPrerequisites">Compatibility/RedMattis.BetterPrerequisites</li>
+    <li IfModActive="zal.eyeprosthetics">Compatibility/zal.eyeprosthetics</li>
     
   </v1.5>
 </loadFolders>
