@@ -19,3 +19,4 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. Not mu
     2. Medieval Overhaul drugs, medicine, gems
     3. Heartstone from Asimov for building Warforged from Forgotten Realms.
     4. more  
+- Added no-facial-animations gene from Big & Small to certain modded xenotypes where the animations don't look right. As I encounter more, I will add them.
