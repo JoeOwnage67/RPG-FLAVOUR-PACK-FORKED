@@ -540,5 +540,31 @@
 						</value>   
 					</match>
 				</Operation>
+
+				<Operation Class="PatchOperationFindMod">
+					<mods>
+						<li>Forgotten Realms - Biotech Edition</li>
+					</mods>
+					<match Class="PatchOperationReplace">
+					<xpath>Defs/XenotypeDef[defName="Forgotten_Chitine"]/genes</xpath>
+						<value>
+								<genes>
+										<li>Hair_BaldOnly</li>
+										<li>Beard_NoBeardOnly</li>
+										<li>Skin_SlateGray</li>
+										<li>Skin_InkBlack</li>
+										<li>Outland_ArachnidHead</li>
+										<li>Outland_ArachnidEyes_White</li>
+										<li>Outland_Ears_FlatPointed</li>
+										<li>Outland_Hands_Talons</li>
+										<li>Outland_Teeth_Fangs</li>
+										<li>DarkVision</li>
+										<li>Aggression_Aggressive</li>
+										<li>Outland_Pos1Metabolism</li>
+									<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+								</genes>							
+						</value>   
+					</match>
+				</Operation>
 		
 </Patch>
