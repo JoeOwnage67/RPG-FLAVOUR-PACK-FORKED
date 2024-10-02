@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="ApparelMakeableBase" MayRequire="vanillaexpanded.vpsycastse">
+	<!--<ThingDef ParentName="ApparelMakeableBase" MayRequire="vanillaexpanded.vpsycastse">
     <defName>MSSRPG_WizardBoots</defName>
     <label>Seer's Boots</label>
     <description>A pair of leather boots enchanted during construction to magically ground the wearer and attune them to planetary arcane forces.</description>
@@ -138,5 +138,5 @@
       </recipeUsers>
     </recipeMaker>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+    </ThingDef> -->
 </Defs>
