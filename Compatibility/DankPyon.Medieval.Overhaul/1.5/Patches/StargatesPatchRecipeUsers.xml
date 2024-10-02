@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Stargates!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+        		<li Class="PatchOperationFindMod">
+					<mods>
+						<li>RimFantasy - Medieval Overhaul Edition</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/RecipeDef[defName="StargateMod_RecipeBase"]</xpath>
+								<value>
+									<recipeUsers>
+										<li>RF_ArcaneCraftingBench</li>
+									</recipeUsers>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>RimFantasy - Medieval Overhaul Edition</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/RecipeDef[defName="StargateMod_RecipeBase"]</xpath>
+								<value>
+									<recipeUsers>
+										<li>DankPyon_Furnace</li>
+									</recipeUsers>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
+				</li>
+				
+			</operations>
+		</match>	
+	</Operation>
+</Patch>
+
+
