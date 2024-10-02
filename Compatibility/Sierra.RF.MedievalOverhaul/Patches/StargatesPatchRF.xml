@@ -1,1 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
 
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Stargates!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+       			<li Class="PatchOperationrReplace">
+					<xpath>Defs/RecipeDef[defName="StargateMod_RecipeBase"]/recipeUsers</xpath>
+					<value>
+						<recipeUsers>
+							<li>RF_ArcaneCraftingBench</li>
+						</recipeUsers>
+					</value>
+				</li>
+			</operations>
+		</match>	
+	</Operation>
+</Patch>
