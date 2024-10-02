@@ -40,7 +40,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3319070383
 - Added ability to mine raw oricalcum (uranium) at *Medieval Overhaul* mine and refine it into ingots at the furnace.  
 - Added ability to mine raw pyrinth at *Medieval Overhaul* mine if *Epochs: Pyrinth* is loaded.
 - Nerfed the amount of tanning liquor the Medieval Overhaul tanning rack uses.
-- Put *Stargates!* (arcane portals) recipes on the *Medieval Overhaul* furnace. Changed its recipes and costlists to use *Medieval Overhaul* components.  
+- Put *Stargates!* (arcane portals) recipes on the *Medieval Overhaul* furnace. Changed its recipes and costlists to use *Medieval Overhaul* components. If *Rimfantasy* mod is loaded, recipes will appear on the arcane crafting bench instead.   
 
 **[CZK] EYE PROSTHETICS (CONTINUED)**:
 - Changed research to align with *Medieval Overhaul*.
