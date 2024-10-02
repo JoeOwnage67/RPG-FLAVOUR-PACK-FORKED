@@ -24,7 +24,7 @@ This is a custom fork of Mr Samuel Streamer's RPG Adventure Flavour Pack. I've s
     2. *Medieval Overhaul* drugs, medicine, gems
     3. Heartstone from *Asimov* for building Warforged from *Forgotten Realms*.
     4. more
-- Grimoires will appear in lootable bookshelves in Medieval Overhaul hideouts and ruins if *Grimoires* mod is loaded.
+- Grimoires will appear in lootable bookshelves in *Medieval Overhaul* hideouts and ruins if *Grimoires* mod is loaded.
 - Added ability to mine raw mithril (plasteel) at *Medieval Overhaul* mine.    
 - Added ability to mine raw oricalcum (uranium) at *Medieval Overhaul* mine and refine it into ingots at the furnace.  
 - Added ability to mine raw pyrinth at *Medieval Overhaul* mine if *Epochs: Pyrinth* is loaded.
