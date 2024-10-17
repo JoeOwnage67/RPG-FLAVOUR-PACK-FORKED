@@ -56,6 +56,8 @@
             </defaultOutfitTags>
         </apparel>
         <techLevel>Medieval</techLevel>
+        <tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
         <recipeMaker>
             <researchPrerequisite Inherit="False" IsNull="True" />
             <recipeUsers>
@@ -137,7 +139,11 @@
                 <li>HandTailoringBench</li>
                 <li>DankPyon_TailorsBench</li>
             </recipeUsers>
+			<displayPriority>290</displayPriority>
         </recipeMaker>
         <colorGenerator Class="ColorGenerator_StandardApparel" />
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
     </ThingDef>
 </Defs>
