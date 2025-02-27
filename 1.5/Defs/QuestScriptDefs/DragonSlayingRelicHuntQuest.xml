@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-    <QuestScriptDef MayRequire="sargoskar.witcherhunt">
+    <!--<QuestScriptDef MayRequire="sargoskar.witcherhunt">
         <defName>MSSRPG_DragonSlayingQuest</defName>
         <rootSelectionWeight>0</rootSelectionWeight>
         <rootMinPoints>0</rootMinPoints>
@@ -64,9 +64,9 @@
                 </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GetDefaultRewardValueFromPoints</def>
-                    <parms>
+                    <parms>-->
                         <!-- Use the actual threat points generated (some site parts define a minimum threshold) -->
-                        <points>$sitePoints</points>
+                       <!-- <points>$sitePoints</points>
                     </parms>
                 </li>
 
@@ -255,9 +255,9 @@
                 </li>
                 <li Class="QuestNode_SubScript">
                     <def>Util_GetDefaultRewardValueFromPoints</def>
-                    <parms>
+                    <parms>-->
                         <!-- Use the actual threat points generated (some site parts define a minimum threshold) -->
-                        <points>$sitePoints</points>
+                      <!--  <points>$sitePoints</points>
                     </parms>
                 </li>
 
@@ -320,5 +320,5 @@
                 </li>
             </nodes>
         </root>
-    </QuestScriptDef>
+    </QuestScriptDef>-->
 </Defs>

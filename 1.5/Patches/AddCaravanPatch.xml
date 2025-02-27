@@ -35,6 +35,7 @@
                         <li>Caravan_ProstheticsTrader</li>
                         <li MayRequire="feldoh.devilfruit">MSSRPG_Caravan_FruitTrader</li>
                     </value>
+                </li>    
              </operations>
         </match>
     </Operation>

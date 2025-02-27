@@ -140,7 +140,7 @@
 
 		<!-- Forgotten Realms -->
 			<!-- Misc -->
-			<li MayRequire="Neronix17.ForgottenRealms" Class="StockGenerator_SingleDef">
+			<li MayRequire="Neronix17.Asimov,Neronix17.ForgottenRealms" Class="StockGenerator_SingleDef">
                 <thingDef>Forgotten_WarforgedHeartstone</thingDef>
                 <countRange>0~1</countRange>
             </li>

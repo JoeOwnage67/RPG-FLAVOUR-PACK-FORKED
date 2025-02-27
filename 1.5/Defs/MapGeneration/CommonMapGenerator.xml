@@ -87,7 +87,7 @@
 										<Gun_TripleRocket>0.03</Gun_TripleRocket> <!-- STAFF OF FIREBALL -->
 										<TornadoGenerator>0.04</TornadoGenerator> <!-- TORNADO SPELL SCROLL -->                            
 										<PsychicAmplifier>0.1</PsychicAmplifier> <!-- PSYLINK -->
-										<MechSerumNeurotrainer>0.05</MechSerumNeurotrainer> <!-- SKILL TOME -->
+										<!--<MechSerumNeurotrainer>0.05</MechSerumNeurotrainer>--> <!-- SKILL TOME -->
 										<Luciferium>0.03</Luciferium> <!-- DEMON'S BLOOD POTION -->
 										<TechprofSubpersonaCore>0.03</TechprofSubpersonaCore> <!-- SCROLL OF KNOWLEDGE -->                       
 										<MechSerumHealer>0.3</MechSerumHealer> <!-- HEALING POTION -->
