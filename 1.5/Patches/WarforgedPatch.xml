@@ -11,7 +11,11 @@
                 <li Class="PatchOperationRemove">
                     <xpath>/Defs/XenotypeDef[defName="Joe_Warforged"]</xpath>                    
                 </li>    
-             </operations>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="Joe_Warforged"]</xpath>                    
+                </li>
+            </operations>
         </match>
     </Operation>    
     

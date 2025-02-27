@@ -2,7 +2,83 @@
 <Defs>
 	
 <!-- Warforged Head -->
-	<GeneDef ParentName="AG_GeneHeadBase">
+
+	<!-- Warhead1 -->
+	<HeadTypeDef ParentName="AverageBase">
+	    	<defName>Joe_Warhead1</defName>
+	      	<graphicPath>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head1</graphicPath>
+	      	<gender>None</gender>
+	      	<requiredGenes>
+	        	<li>Joe_WarforgedHead</li>
+	      	</requiredGenes>
+	</HeadTypeDef>
+
+	<!-- Warhead2 -->
+	<HeadTypeDef ParentName="AverageBase">
+	    	<defName>Joe_Warhead2</defName>
+	      	<graphicPath>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head2</graphicPath>
+	      	<gender>None</gender>
+	      	<requiredGenes>
+	        	<li>Joe_WarforgedHead</li>
+	      	</requiredGenes>
+	</HeadTypeDef>
+
+	<!-- Warhead3 -->
+	<HeadTypeDef ParentName="AverageBase">
+	    	<defName>Joe_Warhead3</defName>
+	      	<graphicPath>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head3</graphicPath>
+	      	<gender>None</gender>
+	      	<requiredGenes>
+	        	<li>Joe_WarforgedHead</li>
+	      	</requiredGenes>
+	</HeadTypeDef>
+
+	<!-- Joe_WarforgedHead -->
+	<GeneDef ParentName="GeneJawBase">
+		<defName>Joe_WarforgedHead</defName>
+		<label>warforged head</label>
+		<description>The head of a warforged is constructed of both organic and inorganic materials. All warforged have crystalline eyes, a hinged jawline and a prominent brow.</description>
+	    <iconPath>UI/Icons/Genes/Gene_WarFace</iconPath>
+		<forcedHeadTypes>
+	    	<li>Joe_Warhead1</li>
+	      	<li>Joe_Warhead2</li>
+			<li>Joe_Warhead3</li>
+	    </forcedHeadTypes>
+		<displayOrderInCategory>9802</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+		<capMods>
+			<li>
+		    	<capacity>Manipulation</capacity>
+		    	<postFactor>1.1</postFactor>
+		    </li>
+		</capMods>
+		<statOffsets>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		    <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		    <ToxicEnvironmentResistance>-0.2</ToxicEnvironmentResistance>
+		    <MiningSpeed>0.1</MiningSpeed>
+		</statOffsets>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+		    	<li>Bald</li>
+		    </tags>
+		 </hairTagFilter>
+		 <beardTagFilter>
+			<whitelist>true</whitelist>
+		    <tags>
+		    	<li>NoBeard</li>
+		    </tags>
+		</beardTagFilter>
+		<!--<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+		    </li>
+		</modExtensions>	-->
+	</GeneDef>
+
+	<!--<GeneDef ParentName="AG_GeneHeadBase">
 		<defName>Joe_WarforgedHead</defName>
 		<label>warforged head</label>
 		<selectionWeight>0</selectionWeight>
@@ -56,7 +132,7 @@
 				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
 			</li>
 		</modExtensions>
-	</GeneDef>
+	</GeneDef> -->
 	
 <!-- WarforgedBody -->
 <GeneDef ParentName="AG_BodyBase">
