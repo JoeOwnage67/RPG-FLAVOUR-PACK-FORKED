@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+  
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>AnyPlant</li><!-- alleZSoyez.AnyPlant.AnyPlant -->
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ResearchProjectDef[defName="AnyPlant_Research_Drainage"]</xpath>                    
+                </li>    
+
+                 <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ResearchProjectDef[defName="AnyPlant_Research_Hydrangea"]</xpath>                    
+                </li>    
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="AnyPlant_Research_CropMini"]</xpath>   
+                    <value>
+                        <ResearchProjectDef>
+                            <defName>AnyPlant_Research_CropMini</defName>
+                            <tab>AnyPlant_Research_ResearchTab</tab>
+                            <label>Crop miniaturization</label>
+                            <description>Through selective breeding, we can create hybrids of crops that are better-suited for indoor life. While these new plants don't need as much light to thrive and are easier to protect from the elements, being constrained within a planter means they won't produce as large of a harvest.</description>
+                            <baseCost>450</baseCost>
+                            <techLevel>Medieval</techLevel>
+                            <researchViewX>0</researchViewX>
+                            <researchViewY>0</researchViewY>                            
+	                    </ResearchProjectDef>                    
+                    </value>                 
+                </li>  
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlantPot"]/researchPrerequisites</xpath>   
+                    <value>
+                        <researchPrerequisites>AnyPlant_Research_CropMini</researchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlant_Plant_PinkHydrangea"]/plant/sowResearchPrerequisites</xpath>   
+                    <value>
+                        <sowResearchPrerequisites>AnyPlant_Research_CropMini</sowResearchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlant_Plant_BlueHydrangea"]/plant/sowResearchPrerequisites</xpath>   
+                    <value>
+                        <sowResearchPrerequisites>AnyPlant_Research_CropMini</sowResearchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlant_Plant_PurpleHydrangeaa"]plant/sowResearchPrerequisites</xpath>   
+                    <value>
+                        <sowResearchPrerequisites>AnyPlant_Research_CropMini</sowResearchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlant_Plant_Smokeleaf"]/plant/harvestYield</xpath>   
+                    <value>
+                        <harvestYield>10</harvestYield>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AnyPlant_Plant_Psychoid"]plant/harvestYield</xpath>   
+                    <value>
+                        <harvestYield>10</harvestYield>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>    
+    
+</Patch>
