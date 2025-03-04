@@ -1,41 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>	
-				<!-- loxodon -->
+			<!-- SAB loxodon -->
 				<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>FRBE Addon - Loxo</li>
 					</mods>
-					<match Class="PatchOperationReplace">
+					<match Class="PatchOperationAdd">
 					<xpath>Defs/XenotypeDef[defName="SAB_Loxodon"]/genes</xpath>
-						<value>
-							<genes>
-								<li>PsychicAbility_Enhanced</li>
-								<li>Outland_DeceleratedPregnancy</li>
-								<li>SAB_LoxoHead</li>
-								<li>Body_Hulk</li>
-								<li>Outland_Skin_Sage</li>
-								<li>Skin_InkBlack</li>
-								<li>Skin_SlateGray</li>
-								<li>Skin_LightGray</li>
-								<li>Skin_SheerWhite</li>
-								<li>Outland_Skin_Marble</li>
-								<li>Outland_Skin_Silver</li>
-								<li>Outland_HoovedFeet</li>
-								<li>Outland_Voice_Beastly</li>
-								<li>Outland_BodyScale_Massive</li>
-								<li>Loxo_Tusk_None</li>
-								<li>Loxo_Tusk_Some</li>								
-								<li>Aggression_DeadCalm</li>
-								<li>KindInstinct</li>
-								<li>BS_ToughSkin</li>
-								<li>BS_SlowAging</li>								
-								<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>								
-							</genes>
+						<value>											
+							<li MayRequire="nals.facialanimation">BS_FacialAnimDisabled</li>
+							<li MayRequire="redmattis.bigsmall.core">Joe_CannotWearHats</li> 	
 						</value>   
 					</match>
 				</Operation>
-				
+
 				<!-- Aard gnoll -->
 				<Operation Class="PatchOperationFindMod">
 					<mods>

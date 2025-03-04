@@ -33,61 +33,10 @@
 				<li MayRequire="sarg.alphagenes">AG_PackMule</li>
 				<li>AptitudeTerrible_Social</li> 
 				<li>AptitudeTerrible_Plants</li> 
-                <li MayRequire="sarg.alphagenes">AG_TarBlood</li>    
-          
+                <li MayRequire="sarg.alphagenes">AG_TarBlood</li>
+				<li>DiseaseFree</li>
+				<li>Immunity_SuperStrong</li>              
 		</genes>
     </XenotypeDef>
-   	
-	<PawnKindDef Name="Joe_PawnKind_Base" Abstract="True">
-		<race>Human</race>
-		<combatPower>40</combatPower>
-		<isFighter>false</isFighter>
-		<defaultFactionType>PlayerColony</defaultFactionType>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<forceNormalGearQuality>false</forceNormalGearQuality>
-		<chemicalAddictionChance>0.05</chemicalAddictionChance>
-		<apparelTags>
-			<li>Neolithic</li>
-			<li>Medieval</li>
-		</apparelTags>
-		<apparelMoney>100~600</apparelMoney>
-		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.02</techHediffsChance>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
-	</PawnKindDef>
-
-   	<PawnKindDef MayRequire="sarg.alphagenes,RedMattis.BigSmall.Core">
-		<defName>Joe_Warforged</defName>
-		<label>warforged</label>
-		<race>Human</race>
-        <combatPower>85</combatPower>
-		<isFighter>true</isFighter>
-        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<forceNormalGearQuality>true</forceNormalGearQuality>
-        <defaultFactionType>PlayerColony</defaultFactionType>
-		<backstoryFiltersOverride>
-		<li>
-			<categories>
-				<li>Joe_Warforged</li>
-			</categories>
-		</li>
-		</backstoryFiltersOverride>
-        <apparelMoney>0~0</apparelMoney>
-		<techHediffsChance>0.0</techHediffsChance>
-		<techHediffsMoney>0~0</techHediffsMoney>
-		<techHediffsTags Inherit="false" />
-		<initialWillRange>0</initialWillRange>
-		<initialResistanceRange>30~40</initialResistanceRange>
-		<xenotypeSet>
-			<xenotypeChances>
-				<Joe_Warforged>999</Joe_Warforged>
-			</xenotypeChances>
-		</xenotypeSet>
-	</PawnKindDef>
 </Defs>
 						

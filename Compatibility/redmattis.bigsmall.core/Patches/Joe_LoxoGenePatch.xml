@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch> 
+    <!--<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>FRBE Addon - Loxo</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/XenotypeDef[defName="Joe_TorduneLoxo"]/genes</xpath>
+            <value>
+                <li>BS_ToughSkin</li>
+                <li>BS_SlowAging</li>
+                <li>BS_FacialAnimDisabled</li>
+                <li>Joe_CannotWearHats</li>
+            </value>  
+        </match>
+    </Operation>-->
+</Patch>

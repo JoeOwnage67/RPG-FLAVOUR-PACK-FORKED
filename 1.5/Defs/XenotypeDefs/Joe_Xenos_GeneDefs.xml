@@ -69,73 +69,17 @@
 		    <tags>
 		    	<li>NoBeard</li>
 		    </tags>
-		</beardTagFilter>
-		<!--<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
-		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
-		    </li>
-		</modExtensions>	-->
-	</GeneDef>
-
-	<!--<GeneDef ParentName="AG_GeneHeadBase">
-		<defName>Joe_WarforgedHead</defName>
-		<label>warforged head</label>
-		<selectionWeight>0</selectionWeight>
-		<description>The head of a warforged is constructed of both organic and inorganic materials. All warforged have crystalline eyes, a hinged jawline and a prominent brow.</description>
-		<biostatCpx>1</biostatCpx>
-		<iconPath>UI/Icons/Genes/Gene_WarFace</iconPath>
-		<renderNodeProperties>
-			<li>
-				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-				<parentTagDef>Head</parentTagDef>
-				<texPaths>
-					<li>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head1</li>
-					<li>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head2</li>
-					<li>Things/Pawn/Humanlike/Heads/InfinityHead/Infinity_Head3</li>
-				</texPaths>
-				<drawData>
-					<defaultData>
-						<layer>80</layer>
-					</defaultData>
-					<dataNorth>
-						<offset>(0, -0.01, 0)</offset>
-					</dataNorth>
-					<dataSouth>
-						<offset>(0, -0.01, 0)</offset>
-					</dataSouth>
-					<dataEast>
-						<offset>(0, -0.01, 0)</offset>
-					</dataEast>
-					<dataWest>
-						<offset>(0, -0.01, 0)</offset>
-					</dataWest>
-				</drawData>
-			</li>
-		</renderNodeProperties>
-		<beardTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>NoBeard</li>
-			</tags>
-		</beardTagFilter>
-		<hairTagFilter>
-			<whitelist>true</whitelist>
-			<tags>
-				<li>Bald</li>
-			</tags>
-		</hairTagFilter>
+		</beardTagFilter>		
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
-	</GeneDef> -->
-	
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>				
+		    </li>
+		</modExtensions> 
+	</GeneDef>
+
 <!-- WarforgedBody -->
-<GeneDef ParentName="AG_BodyBase">
+<GeneDef ParentName="GeneBodyBase">
 		<defName>Joe_WarforgedBody</defName>
 		<label>warforged body</label>
 		<labelShortAdj>warforged body</labelShortAdj>
@@ -157,14 +101,13 @@
 		</renderNodeProperties>
 		<displayOrderInCategory>400</displayOrderInCategory>
 		<iconPath>UI/Icons/Genes/Gene_WarforgedBody</iconPath>
-		<skinColorOverride>(102, 102, 105)</skinColorOverride>
+		<skinColorOverride>(102, 102, 105)</skinColorOverride>	
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
-				<backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-				<useSkinColorForFur>true</useSkinColorForFur>
-			</li>
-		</modExtensions>
+		    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+		        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>				
+		    </li>
+		</modExtensions> 	
 	</GeneDef>
 
 	</Defs>

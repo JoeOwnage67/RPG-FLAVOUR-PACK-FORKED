@@ -31,6 +31,8 @@
     <li IfModActive="Sabrael.FRBELoxo">Compatibility/FRBELoxo</li>
     <li IfModActive="JoeDaly.MedMeds.MO">Compatibility/JoeDaly.MedMeds.MO</li>
     <li IfModActive="Rebuild.COTR.DoorsandCorners">Compatibility/Rebuild.COTR.DoorsandCorners</li>
+    <li IfModActive="Sabrael.FRBEGnolls">Compatibility/Sabrael.FRBEGnolls</li>
+    
   	
   </v1.5>
 </loadFolders>
