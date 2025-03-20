@@ -41,7 +41,7 @@
 			<xpath>Defs/RecipeDef[defName="DankPyon_Make_StoneBlocksClay"]/products</xpath>
 			<value>
 				<products>
-					<DankPyon_Clay>25</DankPyon_Clay>
+					<DankPyon_Clay>35</DankPyon_Clay>
 				</products>
 			</value>
 		</match>
@@ -59,13 +59,13 @@
 		</match>
 	</Operation>
 
-<!-- kiln can make 25 bricks at a time -->
+<!-- kiln can make x bricks at a time -->
     <Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="DankPyon_Kiln"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/capacity</xpath>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="DankPyon_Kiln"]/comps/li[@Class="ProcessorFramework.CompProperties_Processor"]/capacity</xpath>
 			<value>
-				<capacity>50</capacity>
+				<capacity>200</capacity>
 			</value>
 		</match>
 	</Operation>
