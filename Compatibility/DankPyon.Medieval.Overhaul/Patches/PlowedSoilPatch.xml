@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+<!-- Plowed Soil is Construction -->
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/workType</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/workType</xpath>
+			<value>
+                <workType>Construction</workType>
+			</value>
+		</match>
+	</Operation>  
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/skill</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/skill</xpath>
+			<value>
+                <skill>Construction</skill>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/level</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TerrainDef[defName="DankPyon_PlowedSoil"]/modExtensions/li[@Class="VFECore.ThingDefExtension"]/constructionSkillRequirement/level</xpath>
+			<value>
+                <level>5</level>
+			</value>
+		</match>
+	</Operation>
+
+
+
+
+</Patch>
